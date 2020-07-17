@@ -1,40 +1,5 @@
-# Starter-Kit-2019
+npm run watch
 
+ai реализован через рандомный выбор свободного поля. Хотелось бы применить мин-макс алгоритм,,но задача оказалась досмтаточно сложной и нехватило времени.
+графику и звук взяла из opengamesorce, тк на комп проблемы с фотошопом, только просмотр работает
 
-So I built this for all the new web developers... My Goal is to save you time from the bullsh*t of spending hours looking for ways to speed up your learning. Sometimes all we want to do is just code.
-(if you are coming from my  [youtube channel CodingPhase ](https://www.youtube.com/channel/UC46wWUso9H5KPQcoL9iE3Ug) I will base all my tutorials from this starter kit)
-
-I broke it down in simple steps to get you going.
-
-**Steps**
----------
-
-**Download or Pull This Repo**
-	Top of this page you can see where it says clone or download
-
- **Install Node**
-	https://nodejs.org/en/
-
-**Download Atom (OPTIONAL)**
-	https://atom.io/
-
- **Install all the node packages** 
-On the root of this project run on your terminal (if you want you can do this with yarn but thats optional)
-```bash
-    npm install
-    npm install gulp-cli -g
-    npm install gulp@3.9.1 -g
-    npm install webpack -g
-    npm install webpack-cli -g
-```
-    
- **Update the node packages** 
-On the root of this project run on your terminal (if you want you can do this with yarn but thats optional)
-```bash
-  npm update
-```
-
-**Start the dev server**
-```bash
-  npm run watch
-```
